@@ -1,0 +1,52 @@
+body{
+    background-image: linear-gradient(to left, yellow, orangered, blue);
+    background-size: 500% 100%;
+    animation: degradeAnimado 5s infinite alternate ;
+    
+}
+
+@keyframes degradeAnimado{
+    0%{
+        background-position-x: 0%;
+    }
+    100%{
+        background-position-x: 100%;
+
+
+    }
+
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(10, 10, 10);
+    font-weight: bold;
+}
+
+div{
+    text-align: center;
+}
+
+button{
+    height: 2.2em;
+    width: 5.5em;
+    border: none;
+    color: white;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.start-btn{
+    background-color: green;
+}
+
+.pause-btn{
+    background-color: grey;
+}
+
+.stop-btn{
+    background-color: red;
+}
+Footer
